@@ -51,6 +51,7 @@ systmectl enable reflector.timer
 systemctl enable fstrim.timer
 systemctl enable firewalld
 systemctl enable acpid
+systemctl enable --now cockpit.socket
 
 useradd -mG wheel lumiaczek
 
